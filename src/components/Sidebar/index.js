@@ -1,7 +1,7 @@
 import './index.scss';
 import { Link, NavLink } from 'react-router-dom';
 import LogoS from '../../assets/images/logo-s.png';
-import LogoSubtitle from '../../assets/images/logo_sub.png';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faSkype, faYoutube } from '@fortawesome/free-brands-svg-icons';
@@ -12,7 +12,6 @@ import { faGithub, faLinkedin, faSkype, faYoutube } from '@fortawesome/free-bran
     <div className='nav-bar'>
         <Link className='Logo' to='/'>
             <img src={LogoS} alt='logo' />
-            <img className='sub-logo' src={LogoSubtitle} alt='logo' />
         </Link>
         <nav>
             <NavLink exact='true' activeclassname="active" to="/">
@@ -28,22 +27,31 @@ import { faGithub, faLinkedin, faSkype, faYoutube } from '@fortawesome/free-bran
         <ul>
             <li>
                 <a target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' href='#'/>
+                    <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e'
+                    // eslint-disable-next-line
+                    href='#'/>
                 </a>
             </li>
             <li>
                 <a target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faGithub} color='#4d4d4e' href='#'/>
+                    <FontAwesomeIcon icon={faGithub} color='#4d4d4e'
+                    // eslint-disable-next-line
+                    href='#'/>
                 </a>
             </li>
             <li>
                 <a target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faYoutube} color='#4d4d4e' href='#'/>
+                    <FontAwesomeIcon icon={faYoutube} color='#4d4d4e'
+                    // eslint-disable-next-line
+                    href='#'/>
                 </a>
             </li>
             <li>
                 <a target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faSkype} color='#4d4d4e' href='#'/>
+                    <FontAwesomeIcon icon={faSkype} 
+                    color='#4d4d4e' 
+                    // eslint-disable-next-line
+                    href='#'/>
                 </a>
             </li>
         </ul>

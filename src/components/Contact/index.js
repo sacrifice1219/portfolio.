@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'template_jvareli', form.current, 'ObxcC0-Q4GlO3J6JAJYHyK')
+      .sendForm('service_gv0urr8', 'template_jvareli', form.current, 'O_HOr5CaAn7_giw7h')
       .then(
         () => {
           alert('Message successfully sent!')
@@ -89,10 +89,10 @@ const Contact = () => {
         <div className="info-map">
           Sacrifice Lucky,
           <br />
-          Serbia,
+          Abraka,
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          Obadudu agbarah, abraka <br />
+          Delta State <br />
           <br />
           <span>Luckyfavour1219@gmail.com</span>
         </div>
